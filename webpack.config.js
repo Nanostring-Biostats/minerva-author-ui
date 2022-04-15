@@ -74,7 +74,8 @@ var webpackConfig = {
         "changeOrigin": true
       }
     }
-  }
+  },
+  devtool: 'source-map'
 };
 
 module.exports = (env, argv) => {
